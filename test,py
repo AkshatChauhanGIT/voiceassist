@@ -1,0 +1,10 @@
+import pyautogui
+from pyautogui import click,hotkey
+from time import sleep
+
+sleep(2)
+cor = pyautogui.position()
+pyautogui.click(x=1714, y=1048)
+sleep(2)
+pyautogui.click(x=1664, y=439)
+#print(cor)
